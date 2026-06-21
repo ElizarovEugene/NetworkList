@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Database (runtime data, not source)
+*.db
+*.db-shm
+*.db-wal
+*.db.bak-*
+
+# Node / frontend
+node_modules/
+dist/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.DS_Store
+*.swp
